@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -7,9 +7,9 @@ const Header = () => {
     <div>
       <nav>
         <div>
-          <Link className="title" to="/">
+          <div className="title">
             Calculator
-          </Link>
+          </div>
           <div className="menu" onClick={() => setIsMenuOpen(!isMenuOpen)} />
         </div>
       </nav>

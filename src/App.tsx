@@ -24,13 +24,13 @@ function App() {
         onChange={setFirstInput}
         placeholder="first input"
       />
-      <h1>+</h1>
       <Input
         value={secondInput}
         onChange={setSecondInput}
         placeholder="second input"
       />
-      <Button onClick={() => addNumbers(firstInput, secondInput)} />
+      <Button onClick={() => addNumbers(firstInput, secondInput)} label="Add" className="button"  />
+
       <Screen result={result} />
     </div>
   );
