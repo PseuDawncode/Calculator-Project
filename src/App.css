@@ -4,14 +4,15 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-color: #D1C4E9;
 }
 
 .calculator {
-  background-color: darkgray;
+  background-color: #9E9E9E;
   width: 130px;
-  padding: 30px;
+  padding: 65px;
   border-radius: 20px;
+  border: solid #424242;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +25,7 @@ input {
   border: 0;
   border-radius: 10px;
   padding: 0 10px 0 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -43,23 +45,26 @@ h1 {
 }
 
 .button {
-  width: 80px;
-  height: 40px;
-  background-color: rgb(139, 0, 93);
-  border-radius: 20px;
+  width: 85px;
+  height: 50px;
+  background-color: #009688;
+  border-radius: 10px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: azure;
   box-shadow: 2px 2px 10px dimgray;
   margin: 10px 0 0 0;
+  cursor: pointer;
 }
 
 .button:hover {
-  background-color: #e359ae;
+  background-color: #4DB6AC;
 }
 
 .title{
   font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #2596be;
-  margin-bottom: 20px;
+  color: #004D40;
+  margin-bottom: 50px;
 }
